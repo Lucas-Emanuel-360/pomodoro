@@ -2,6 +2,8 @@
 
 Aplicação web desenvolvida em **TypeScript** e **React** com persistência local em `localStorage`, interface em português e layout responsivo.
 
+**Acesse a aplicação online:** [https://pomodoro-olive-omega.vercel.app/](https://pomodoro-olive-omega.vercel.app/)
+
 ## Funcionalidades Implementadas
 
 - **Temporizadores Personalizados (Presets):** Criação, edição, exclusão (com confirmação) e listagem, respeitando validações (`VR-01` a `VR-05`) e bloqueio de edição/exclusão quando em uso por sessão ativa (`RN-01`).
@@ -15,10 +17,3 @@ Aplicação web desenvolvida em **TypeScript** e **React** com persistência loc
 ```bash
 npm install
 npm run dev
-```
-
-Para gerar o build de produção e validar a tipagem TypeScript:
-
-```bash
-npm run build
-```
